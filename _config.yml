@@ -1,1 +1,74 @@
-theme: jekyll-theme-hacker
+# Site Info
+title: Github
+tagline: 'A jekyll blog theme powered by bootstrap'
+description: 'A jekyll blog theme powered by bootstrap </a>made by <a href="#">@ankitmahlwat</a>.'
+baseurl: ''
+url: https://AnkitMahlawat.github.io
+
+# Site configurations
+plugins:
+  - jekyll-paginate
+markdown: kramdown
+
+# About/contact
+author: Ankit Mahlawat
+
+bio: Engineer | Developer | Programmer | Student
+  
+contact:
+   - title: Linkedin
+     link:  https://www.linkedin.com/ankit-mahlawat
+
+   - title: Github
+     link:  https://github.com/ankitmahlawat
+
+   - title: Instagram
+     link:  https://www.instagram.com/your_id
+
+   - title: Twitter
+     link:  https://www.twitter.com/your_id
+
+   - title: Gmail
+     link:  mailto:ankitmahlawat123@gmail.com
+  
+skills:
+   - title: C
+     level: 95
+     color: primary
+
+   - title: C++
+     level: 95
+     color: success
+     
+   - title: Python
+     level: 85
+     color: warning
+     
+   - title: Java
+     level: 85
+     color: primary
+     
+   - title: Ruby on Rails
+     level: 80
+     color: info     
+
+   - title: React | React Native
+     level: 75
+     color: danger
+
+# Navigation (2nd level links supported)
+
+toc:
+  - title: Home
+    url: /
+  - title: Blog
+    url: /blog/    
+  - title: About
+    url: /about
+  - title: Author
+    url: /author    
+    
+  - title: More
+    subfolderitems:
+      - page: Open Source Contribution
+        url: /oss
